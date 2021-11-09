@@ -9,3 +9,7 @@ This measure refers to research article: https://www.researchgate.net/publicatio
 - element[.h.c] defines an element of the matrix i.e. data / probabilities
 - matrice[.h.c] describes the matrix and its associated functions
 - entropie[.h.c] calculates entropy recursively in any dimension matrix
+
+## Code specificity
+
+In order to accelerate calculus, algorithm is recursive and uses local variables per line and column to avoid useless CPU consumption.
